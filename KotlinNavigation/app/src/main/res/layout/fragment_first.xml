@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FirstFragment">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="80dp"
+            android:text="FIRST FRAGMENT"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="500dp"
+            android:text="TO SECOND">
+
+        </Button>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
